@@ -1,0 +1,19 @@
+{
+  "name": "@example/vite-inconsistency",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^0.21.10"
+  },
+  "dependencies": {
+    "astro-xelement": "^3.1.0",
+    "morphdom": "2.7.2"
+  }
+}
