@@ -8,7 +8,7 @@ export default {
 			{
 				name: '@astrojs/svg-test',
 				enforce: 'pre',
-				apply: 'serve',
+				apply: 'build',
 				async load(id = '') {
 					if (id.endsWith('.svg')) {
 						const asset = {
